@@ -48,12 +48,10 @@ By consistently following this roadmap, I aim to build a **strong foundation in 
 
 ## 🌱 Daily Motivation
 
-> **Each day matters. One concept learned today compounds into confidence tomorrow.**  
-> Consistency beats intensity.
+ **Each day matters. One concept learned today compounds into confidence tomorrow.**  
+ Consistency beats intensity.
 
 ---
-
-⭐ This repository represents my **learning discipline and growth**, not just outcomes.
 
 ⭐ This repository represents my **learning discipline and growth**, not just outcomes.
 
