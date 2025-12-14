@@ -38,8 +38,6 @@ Projects will be added **after building strong foundations**.
 | SQL | ⚪ Not Started |
 | Streamlit | ⚪ Not Started |
 
----
-
 ## 📌 Goal
 
 By consistently following this roadmap, I aim to build a **strong foundation in AI / ML**, gain confidence in problem-solving, and transition into **real-world AI/ML projects and deployments**.
