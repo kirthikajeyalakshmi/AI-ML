@@ -13,12 +13,6 @@ Projects will be added **after building strong foundations**.
 
 ---
 
-## 🎯 Learning Philosophy
-
-> **Strong fundamentals first. Clear understanding over speed.**
-
----
-
 ## 🧠 Learning Roadmap & Progress
 
 | Area | Topics | Current Status |
