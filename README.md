@@ -15,28 +15,54 @@ Projects will be added **after building strong foundations**.
 
 ## 🧠 Learning Roadmap & Progress
 
-| Area | Topics | Current Status |
-|-----|------|----------------|
-| **Python for AI / ML** | Python for data analysis | 🟢 Started |
-| **SQL for AI Engineers** | SQL fundamentals for analytics | ⚪ Not Started |
-| **Classical Machine Learning** | Supervised & Unsupervised ML | ⚪ Not Started |
-| **Classical NLP** | Text processing & ML-based NLP | ⚪ Not Started |
-| **AI Application (Capstone)** | AI-based career guidance system | ⚪ Not Started |
-| **Streamlit Deployment** | ML app deployment & UI | ⚪ Not Started |
-| **LLM Awareness (Conceptual)** | LLMs, prompting, RAG basics | ⚪ Not Started |
+---
+
+## 🧠 Python & ML Foundations
+
+| Topic        | Main Topics                                                                  | Current Status |
+| ------------ | ---------------------------------------------------------------------------- | -------------- |
+| Python       | Python basics, data structures, functions, file handling, exception handling | 🟢 Started     |
+| NumPy        | Arrays, indexing, reshaping, vectorization                                   | ⚪ Not Started  |
+| Matplotlib   | Line, bar, histogram, box plot                                               | ⚪ Not Started  |
+| Seaborn      | Statistical plots, visualization                                             | ⚪ Not Started  |
+| SQL          | SELECT, JOIN, GROUP BY, subqueries                                           | ⚪ Not Started  |
+| Scikit-learn | Data preprocessing, regression, classification, clustering                   | ⚪ Not Started  |
+| Math         | Linear Algebra, Probability, Statistics                                      | ⚪ Not Started  |
 
 ---
 
-## 🧪 Tech Stack (Learning Phase)
+## 🧠 Machine Learning
 
-| Technology | Status |
-|-----------|--------|
-| Python | 🟢 Started |
-| NumPy | ⚪ Not Started |
-| Pandas | ⚪ Not Started |
-| Scikit-learn | ⚪ Not Started |
-| SQL | ⚪ Not Started |
-| Streamlit | ⚪ Not Started |
+| Topic         | Main Topics                                                               | Current Status |
+| ------------- | ------------------------------------------------------------------------- | -------------- |
+| ML Algorithms | Linear Regression, Logistic Regression, Decision Tree, Random Forest, KNN | ⚪ Not Started  |
+| Projects      | Hands-on ML projects                                                      | ⚪ Not Started  |
+| Streamlit     | ML app deployment, UI integration                                         | ⚪ Not Started  |
+
+---
+
+## 🧠 Deep Learning
+
+| Topic                | Main Topics                                                   | Current Status |
+| -------------------- | ------------------------------------------------------------- | -------------- |
+| Basics               | What is DL, Why DL, Core ideas                                | ⚪ Not Started  |
+| Core Concepts        | Neuron, Layers, Weights, Bias, Loss Function, Backpropagation | ⚪ Not Started  |
+| Activation Functions | Sigmoid, ReLU, Softmax                                        | ⚪ Not Started  |
+| Neural Network Types | ANN, CNN, RNN                                                 | ⚪ Not Started  |
+| Mini Project         | Small DL-based project                                        | ⚪ Not Started  |
+| Specialization       | NLP / GenAI / OpenCV / Predictive Modeling                    | ⚪ Not Started  |
+| Streamlit            | Deploy DL project with UI                                     | ⚪ Not Started  |
+| Main Project         | End-to-end DL project                                         | ⚪ Not Started  |
+
+---
+
+## 🧠 LLM Usage (Conceptual)
+
+| Topic | Main Topics                                       | Current Status |
+| ----- | ------------------------------------------------- | -------------- |
+| LLM   | LLM API usage, Prompting techniques, RAG overview | ⚪ Not Started  |
+
+---
 
 ## 📌 Goal
 
