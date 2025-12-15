@@ -1,4 +1,4 @@
-# AI / ML Engineer Learning Path 🚀
+# AI / ML Engineer Learning Path 🚀📈
 
 This repository documents my **structured learning journey** toward becoming an **AI / ML Engineer (Fresher Level)**.
 
@@ -71,7 +71,7 @@ By consistently following this roadmap, I aim to build a **strong foundation in 
 
 ## 🌱 Daily Motivation
  **Each day matters. One concept learned today compounds into confidence tomorrow.**  
- Consistency beats intensity.
+ Consistency beats intensity ✨.
 
 ---
 
