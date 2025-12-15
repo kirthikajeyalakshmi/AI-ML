@@ -1,0 +1,400 @@
+PYTHON BASICS — COMPLETE REVISION NOTES
+
+(For AI / ML + Placements)
+
+1️⃣ VARIABLES & DATA TYPES
+x = 10
+y = 3.5
+name = "Kritika"
+is_valid = True
+z = None
+
+
+Output (checking type):
+
+type(x)
+
+<class 'int'>
+----------------------------------------------
+2️⃣ INPUT & OUTPUT
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+print(name, age)
+
+
+Input:
+
+Kritika
+21
+
+
+Output:
+
+Kritika 21
+
+⚠ Input is always string → convert when needed.
+--------------------------------------------------
+3️⃣ OPERATORS
+Arithmetic
+print(10 + 3)
+print(10 // 3)
+print(10 % 3)
+
+
+Output:
+
+13
+3
+1
+
+Comparison
+print(10 > 5)
+print(10 == 5)
+
+
+Output:
+
+True
+False
+
+Logical
+print(True and False)
+print(True or False)
+
+
+Output:
+
+False
+True
+----------------------------------------------------
+4️⃣ CONDITIONAL STATEMENTS
+marks = 85
+
+if marks >= 90:
+    print("A+")
+elif marks >= 75:
+    print("A")
+else:
+    print("B")
+
+
+Output:
+
+A
+------------------------------------------------
+5️⃣ LOOPS
+For loop
+for i in range(5):
+    print(i)
+
+
+Output:
+
+0
+1
+2
+3
+4
+
+While loop
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+
+
+Output:
+
+0
+1
+2
+---------------------------------------
+6️⃣ FUNCTIONS
+def add(a, b):
+    return a + b
+
+result = add(5, 7)
+print(result)
+
+
+Output:
+
+12
+-----------------------------------------
+7️⃣ LIST
+arr = [10, 20, 30]
+
+Add
+arr.append(40)
+print(arr)
+
+
+Output:
+
+[10, 20, 30, 40]
+
+Insert
+arr.insert(1, 15)
+print(arr)
+
+
+Output:
+
+[10, 15, 20, 30, 40]
+
+Pop
+arr.pop()
+print(arr)
+
+
+Output:
+
+[10, 15, 20, 30]
+
+Remove
+arr.remove(15)
+print(arr)
+
+
+Output:
+
+[10, 20, 30]
+
+Sort
+arr.sort()
+print(arr)
+
+
+Output:
+
+[10, 20, 30]
+--------------------------------------------
+8️⃣ TUPLE
+t = (10, 20, 30)
+print(t[0])
+
+
+Output:
+
+10
+
+t.count(10)
+
+
+Output:
+
+1
+
+
+⚠ Cannot modify tuple:
+
+t[0] = 100
+
+
+Output:
+
+TypeError
+---------------------------------------------
+9️⃣ SET
+s = {10, 20, 30}
+s.add(20)
+print(s)
+
+
+Output:
+
+{10, 20, 30}
+
+
+(no duplicates)
+
+Set operations
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+
+
+Output:
+
+{1, 2, 3, 4, 5}
+{3}
+{1, 2}
+---------------------------------------------
+🔟 DICTIONARY
+d = {"name": "Kritika", "age": 21}
+print(d["name"])
+
+
+Output:
+
+Kritika
+
+get()
+print(d.get("city"))
+
+
+Output:
+
+None
+
+
+(no error)
+
+Loop
+for k, v in d.items():
+    print(k, v)
+
+
+Output:
+
+name Kritika
+age 21
+--------------------------------------------
+1️⃣1️⃣ STRING BASICS
+s = " Python "
+print(s.strip())
+print(s.upper())
+print(s.replace("P", "J"))
+
+
+Output:
+
+Python
+ PYTHON 
+ Jython
+---------------------------------------
+1️⃣2️⃣ FILE HANDLING (TEXT)
+
+Assume file contains:
+
+Hello
+Python
+AI
+
+with open("sample.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+
+Output:
+
+Hello
+Python
+AI
+------------------------------------------
+1️⃣3️⃣ CSV FILE HANDLING
+
+CSV:
+
+name,marks
+Kritika,85
+Anu,72
+
+for row in reader:
+    print(row)
+
+
+Output:
+
+['name', 'marks']
+['Kritika', '85']
+['Anu', '72']
+---------------------------------------------
+1️⃣4️⃣ EXCEPTION HANDLING
+try:
+    x = int("abc")
+except ValueError:
+    print("Invalid input")
+
+
+Output:
+
+Invalid input
+----------------------------------------
+
+1️⃣5️⃣ IMPORTANT DIFFERENCES (REVISION GOLD)
+🔹 list vs tuple
+l = [1, 2]
+t = (1, 2)
+
+l[0] = 10   # works
+t[0] = 10   # error
+
+
+Output:
+
+TypeError
+
+
+👉 List = mutable
+👉 Tuple = immutable
+
+🔹 set vs list
+print([1,1,2,2])
+print({1,1,2,2})
+
+
+Output:
+
+[1, 1, 2, 2]
+{1, 2}
+
+
+👉 Set removes duplicates
+
+🔹 remove() vs pop()
+arr = [10, 20, 30]
+arr.remove(20)
+print(arr)
+
+
+Output:
+
+[10, 30]
+
+arr.pop()
+print(arr)
+
+
+Output:
+
+[10]
+
+
+👉 remove → by value
+👉 pop → by index / last
+
+🔹 get() vs []
+d = {"a": 1}
+print(d.get("b"))
+
+
+Output:
+
+None
+
+print(d["b"])
+
+
+Output:
+
+KeyError
+
+🔹 file.read() vs csv.reader()
+
+file.read()
+
+
+Output:
+
+Entire file as ONE string
+
+for row in reader:
+
+
+Output:
+
+One row at a time as LIST
