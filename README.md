@@ -13,9 +13,8 @@ Projects will be added **after building strong foundations**.
 
 ---
 
-## 🧠 Learning Roadmap & Progress
+## 📌 Learning Roadmap & Progress
 
----
 
 ## 🧠 Python & ML Foundations
 
