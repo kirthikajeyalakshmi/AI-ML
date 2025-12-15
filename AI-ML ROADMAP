@@ -1,0 +1,92 @@
+ARTIFICIAL INTELLIGENCE (AI)
+│
+├── Symbolic / Rule-Based AI                         🔴 Ignore
+│   └── If–Else Rules, Logic Systems
+│
+└── Data-Driven AI
+    │
+    ├── Machine Learning (ML)
+    │   │
+    │   ├── Classical Machine Learning                🟢 LEARN DEEPLY
+    │   │   │
+    │   │   ├── Supervised Learning
+    │   │   │   ├── Linear Regression
+    │   │   │   ├── Logistic Regression
+    │   │   │   ├── Decision Tree
+    │   │   │   ├── Random Forest
+    │   │   │   └── Support Vector Machine
+    │   │   │       → Projects:
+    │   │   │         • Salary Prediction
+    │   │   │         • Student Performance Prediction
+    │   │   │         • Career Path Prediction
+    │   │   │
+    │   │   ├── Unsupervised Learning                 🟢 LEARN DEEPLY
+    │   │   │   ├── K-Means
+    │   │   │   └── Hierarchical Clustering
+    │   │   │       → Projects:
+    │   │   │         • Student Grouping
+    │   │   │         • Skill-Based Career Clustering
+    │   │   │
+    │   │   └── Classical NLP                         🟢 LEARN DEEPLY (IMPORTANT)
+    │   │       ├── Text Cleaning
+    │   │       ├── Bag of Words
+    │   │       ├── TF-IDF
+    │   │       ├── Text Similarity
+    │   │       └── ML Models for Text
+    │   │           → Projects:
+    │   │             • Resume–Job Matching System
+    │   │             • Skill-Based Career Recommendation
+    │   │             • Course Recommendation Engine
+    │   │
+    │   └── Deep Learning (DL)
+    │       │
+    │       ├── Neural Networks (Base)                🔴 Ignore
+    │       │
+    │       ├── Computer Vision                       🔴 Ignore
+    │       │   ├── CNN
+    │       │   └── Image Models
+    │       │
+    │       └── Modern NLP                            🟡 CONCEPTUAL ONLY
+    │           ├── Word Embeddings
+    │           ├── RNN / LSTM
+    │           ├── Transformers
+    │           │   ├── BERT
+    │           │   └── GPT Architecture
+    │           │
+    │           └── Large Language Models (LLMs)      🟡 CONCEPTUAL
+    │               ├── GPT
+    │               ├── Claude
+    │               └── LLaMA
+    │
+    └── AI Engineering (Applied AI)
+        │
+        ├── LLM Usage (No Training)                   🟡 CONCEPTUAL
+        │   ├── Prompt Engineering
+        │   ├── API Calls
+        │   └── Output Handling
+        │       → Mini Demo:
+        │         • Simple Chatbot using OpenAI/Gemini API
+        │
+        ├── LLM Frameworks                            🟡 CONCEPTUAL
+        │   ├── LangChain
+        │   └── LlamaIndex
+        │
+        ├── Retrieval Systems                         🟡 CONCEPTUAL
+        │   ├── Vector Embeddings
+        │   ├── Vector Databases (FAISS)
+        │   └── RAG (Retrieval Augmented Generation)
+        │
+        ├── Agentic AI                                🔴 Ignore for Now
+        │   ├── LLM
+        │   ├── Tools (APIs, Search, DB)
+        │   ├── Memory
+        │   └── Decision Logic
+        │
+        └── AI Applications                           🟢 LEARN DEEPLY
+            ├── Chatbots
+            ├── Recommendation Systems
+            ├── Career Guidance AI                    ⭐ MAIN PROJECT
+            └── AI Assistants
+                → Project:
+                  • Resume worthy projects
+                  • Deployed using Streamlit
