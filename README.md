@@ -1,5 +1,7 @@
 # AI / ML Engineer Learning Path 🚀📈
 
+🗓️ **Learning Started On:** December 14, 2025
+
 This repository documents my **structured learning journey** toward becoming an **AI / ML Engineer (Fresher Level)**.
 
 The purpose of this repository is to:
