@@ -23,8 +23,8 @@ Projects will be added **after building strong foundations**.
 | Topic        | Main Topics                                                                  | Current Status |
 | ------------ | ---------------------------------------------------------------------------- | -------------- |
 | Python       | Python basics, data structures, functions, file handling, exception handling | ✅ Completed   |
-| NumPy        | Arrays, indexing, reshaping, vectorization                                   | 🟢 Started      |
-| Pandas       | Series, DataFrame, data cleaning, filtering, grouping                        | ⚪ Not Started  |
+| NumPy        | Arrays, indexing, reshaping, vectorization                                   | ✅ Completed    |
+| Pandas       | Series, DataFrame, data cleaning, filtering, grouping                        | 🟢  Started  |
 | Matplotlib   | Line, bar, histogram, box plot                                               | ⚪ Not Started  |
 | Seaborn      | Statistical plots, visualization                                             | ⚪ Not Started  |
 | SQL          | SELECT, JOIN, GROUP BY, subqueries                                           | ⚪ Not Started  |
